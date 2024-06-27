@@ -1,0 +1,61 @@
+.kitify-nova-menu__mobile-trigger {
+  display: none;
+}
+.kitify-nova-menu__mobile-trigger .kitify-nova-menu__mobile-trigger-icon {
+  font-size: 1.3125rem;
+}
+.kitify-nova-menu.kitify-nova-menu--style-default .main-navigation > ul > li > a:after,
+.kitify-nova-menu.kitify-nova-menu--style-default .main-navigation > ul > li > a:before {
+  display: none;
+}
+.kitify-nova-menu.kitify-nova-menu--style-bottom-line .main-navigation > ul > li > a:before {
+  top: auto;
+  bottom: 0;
+}
+.kitify-nova-menu .main-navigation {
+  display: flex;
+}
+.kitify-nova-menu .main-navigation .nav-menu {
+  position: static;
+}
+.kitify-nova-menu .main-navigation > ul > li > a {
+  display: flex;
+  align-items: center;
+}
+.kitify-nova-menu .main-navigation ul > li > a:hover {
+  color: var(--site-link-hover-color);
+}
+.kitify-nova-menu .main-navigation .sub-menu li a:before {
+  display: none;
+}
+.kitify-nova-menu.kitify-active--mbmenu .kitify-nova-menu__mobile-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kitify-nova-menu.kitify-active--mbmenu .kitify-nova-menu__mobile-trigger a,
+.kitify-nova-menu.kitify-active--mbmenu .kitify-nova-menu__mobile-trigger .kitify-blocks-icon
+ {
+  line-height: 0;
+}
+.kitify-nova-menu.kitify-active--mbmenu .main-navigation {
+  display: none;
+}
+.mega-menu .elementor-icon-list-items{
+  visibility: hidden;
+  pointer-events:visible !important;
+}
+.nav-menu ul.mega-menu ul .elementor-icon-list-items li{
+  padding: 0;
+}
+.nav-menu > li:hover .mega-menu .elementor-icon-list-items{
+  visibility: visible;
+}
+.mega-menu .kitify-nav-arrow {
+  display: none;
+}
+.main-navigation > ul > li > ul > li .kitify-nav-arrow {
+  position: relative;
+  top: -1px;
+  transform: rotate(-90deg);
+}
