@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.specific-name-prop{
+    margin: 40px;
+}
+
+.formulario-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 20px;
+}
+
+.content-form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.nome-content input,
+.categoria-content input,
+.valor-content input,
+.imagem-content input{
+    width: 400px;
+    height: 50px;
+}
+
+.imagem-content {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.specific-name-prop{
+    position: relative;
+    left: 443px;
+    top: 80px;
+    font-size: 23px;
+}
+
+.button-content{
+    display: flex;
+    gap: 200px;
+}
+
+.button-send,
+.button-clean{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: red;
+    position: relative;
+    /* left: 50px; */
+    color: white;
+}
+
+.button-clean{
+    background-color: black;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.img-content img{
+    width: 130px;
+    height: auto;
+}
+
+.inform-content{
+    display: flex;
+    gap: 60px;
+}
+
+.separator{
+    border-bottom: 2px solid black;
+}
+
+.Voltar,
+.Sair{
+    border: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Define a animação */
+@keyframes colorChange {
+    0% {
+        color: initial;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.Voltar:hover,
+.Sair:hover {
+    color: red;
+    animation: colorChange .2s ease-in-out;
+}
